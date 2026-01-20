@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5175",
+    origin: "https://employee-system-kappa.vercel.app",
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"]
